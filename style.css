@@ -1,0 +1,88 @@
+/* --- 基本的なデザイン --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Hirarino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- 全体を囲むコンテナ --- */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px 50px; /* 少し余白を調整 */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* --- タイトル部分 --- */
+h1 {
+    font-size: 2.2rem; /* 少しだけ小さく調整 */
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem; /* 少しだけ小さく調整 */
+    color: #34495e;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* --- リード文 --- */
+.lead {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* --- 本文 --- */
+p {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* --- 最後の行動喚起セクション --- */
+.action-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* --- 戻るボタンのデザイン --- */
+.back-button {
+    display: inline-block;
+    background-color: #7f8c8d; /* 落ち着いたグレー */
+    color: #ffffff;
+    padding: 14px 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+    background-color: #6c7a7b;
+    transform: translateY(-2px);
+}
+
+/* --- フッター --- */
+footer {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
